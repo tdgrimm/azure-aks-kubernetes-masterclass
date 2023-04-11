@@ -13,7 +13,7 @@ spec:
       labels: # Dictionary 
         app: myapp1       
     spec:
-      containers: # List
+    containers: # List
         - name: myapp1-container
           image: stacksimplify/kubenginx:1.0.0
           ports:
